@@ -5,19 +5,22 @@ brew install python
 brew install tree
 
 # Install MacOS Applications
-brew cask install google-chrome
-brew cask install firefox
-brew cask install sublime-text
-brew cask install virtualbox
-brew cask install sourcetree
 brew cask install spotify
-brew cask install discord
-brew cask install google-backup-and-sync
+brew cask install google-chrome
+brew cask install boxcryptor
+brew cask install firefox
+brew cask install virtualbox
+brew cask install virtualbox-extension-pack
+brew cask install sublime-text
+brew cask install sublime-merge
+brew cask install skype-for-business
 brew cask install skype
-brew cask install gimp
+brew cask install teamviewer
+brew cask install pdfsam-basic
+brew cask install karabiner-elements
+brew cask install dropbox
 brew cask install vlc
-brew cask install hyperdock
-brew cask install divvy
+brew cask install karabiner-elements
 
 # Install Source Code Pro Font
 brew tap homebrew/cask-fonts

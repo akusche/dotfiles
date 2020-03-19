@@ -36,4 +36,5 @@ curl "https://raw.githubusercontent.com/git/git/master/contrib/completion/git-co
 ./brew.sh
 
 # Run the Sublime Script
-./sublime.sh
+# First need to figure out what it is doing ;)
+# ./sublime.sh
