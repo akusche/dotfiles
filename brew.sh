@@ -1,5 +1,11 @@
 #!/usr/bin/env bash
 
+# Make sure we are using the latest Homebrew
+brew update
+
+# Upgrade any already existing formulae
+brew upgrade --all 
+
 # Install Brew Packages
 brew install python
 brew install tree
