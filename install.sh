@@ -29,6 +29,10 @@ for file in ${files}; do
     ln -sf ${dotfiledir}/.${file} ${homedir}/.${file}
 done
 
+# symlinks karabiner config file
+ln -sf ${dotfiledir}/1551781157.json ~/.config/karabiner/assets/complex_modifications/1551781157.json
+echo "Creating symlink to karabiner config file."
+
 # Download Git Auto-Completion
 curl "https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash" > ${homedir}/.git-completion.bash
 

@@ -27,6 +27,7 @@ brew cask install karabiner-elements
 brew cask install dropbox
 brew cask install vlc
 brew cask install karabiner-elements
+brew cask install r
 
 # Install Source Code Pro Font
 brew tap homebrew/cask-fonts
