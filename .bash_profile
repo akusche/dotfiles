@@ -14,3 +14,7 @@ fi
 # Setting PATH for Python 3.7
 # PATH="/Library/Frameworks/Python.framework/Versions/3.7/bin:${PATH}"
 # export PATH
+
+# Setting environemnt variable
+p=$HOME"/Documents/projects/"
+export p
