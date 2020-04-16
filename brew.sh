@@ -3,9 +3,6 @@
 # Make sure we are using the latest Homebrew
 brew update
 
-# Upgrade any already existing formulae
-brew upgrade --all 
-
 # Install Brew Packages
 brew install python
 brew install tree
@@ -28,6 +25,7 @@ brew cask install dropbox
 brew cask install vlc
 brew cask install karabiner-elements
 brew cask install r
+brew cask install zoom-in
 
 # Install Source Code Pro Font
 brew tap homebrew/cask-fonts
