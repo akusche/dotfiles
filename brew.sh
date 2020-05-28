@@ -6,6 +6,7 @@ brew update
 # Install Brew Packages
 brew install python
 brew install tree
+brew install pandoc
 
 # Install MacOS Applications
 brew cask install spotify
