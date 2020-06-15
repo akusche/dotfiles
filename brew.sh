@@ -2,7 +2,6 @@
 
 # Make sure we are using the latest Homebrew
 brew update
-brew cask upgrade --greedy
 
 # Install Brew Packages
 brew install python
