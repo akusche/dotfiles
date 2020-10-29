@@ -18,3 +18,6 @@ fi
 # Setting environemnt variable
 p=$HOME"/Documents/projects/"
 export p
+
+# Zeigt zum Starten eine Systemübersicht
+clear && echo && neofetch && echo && dfc && echo

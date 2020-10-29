@@ -8,6 +8,9 @@ brew install python
 brew install tree
 brew install pandoc
 brew install diff-pdf
+brew install htop		#zeigt wunderbar die aktuell laufenden Prozesse des Systems
+brew install dfc 		#zeigt die Festplattenbelegung
+brew install neofetch	#zeigt die Informationen zum System an.
 
 # Install MacOS Applications
 brew cask install spotify
@@ -30,6 +33,7 @@ brew cask install r
 brew cask install zoom-in
 brew cask install microsoft-teams
 brew cask install dbeaver-community
+
 
 # Install Source Code Pro Font
 brew tap homebrew/cask-fonts
