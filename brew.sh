@@ -33,7 +33,7 @@ brew cask install r
 brew cask install zoom-in
 brew cask install microsoft-teams
 brew cask install dbeaver-community
-
+brew cask install iterm2
 
 # Install Source Code Pro Font
 brew tap homebrew/cask-fonts
