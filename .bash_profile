@@ -1,5 +1,4 @@
 # Simplified dotfile for video recordings
-
 # Load dotfiles:
 for file in ~/.{bash_prompt,aliases,private}; do
     [ -r "$file" ] && [ -f "$file" ] && source "$file";
@@ -19,5 +18,12 @@ fi
 p=$HOME"/Documents/projects/"
 export p
 
+# Manage different versions of python
+if command -v pyenv 1>/dev/null 2>&1; then
+  eval "$(pyenv init -)"
+fi
+
 # Zeigt zum Starten eine Systemübersicht
 clear && echo && neofetch && echo && dfc && echo
+
+

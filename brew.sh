@@ -11,31 +11,31 @@ brew install diff-pdf
 brew install htop		#zeigt wunderbar die aktuell laufenden Prozesse des Systems
 brew install dfc 		#zeigt die Festplattenbelegung
 brew install neofetch	#zeigt die Informationen zum System an.
+brew install pyenv 		#verwaltet mehre Python Versionen auf dem OS 
 
 # Install MacOS Applications
-brew cask install spotify
-brew cask install google-chrome
-brew cask install boxcryptor
-brew cask install firefox
-brew cask install virtualbox
-brew cask install virtualbox-extension-pack
-brew cask install sublime-text
-brew cask install sublime-merge
-brew cask install skype-for-business
-brew cask install skype
-brew cask install teamviewer
-brew cask install pdfsam-basic
-brew cask install karabiner-elements
-brew cask install dropbox
-brew cask install vlc
-brew cask install karabiner-elements
-brew cask install r
-brew cask install zoom-in
-brew cask install microsoft-teams
-brew cask install dbeaver-community
-brew cask install iterm2
+brew install --cask spotify
+brew install --cask google-chrome
+brew install --cask boxcryptor
+brew install --cask firefox
+brew install --cask virtualbox
+brew install --cask virtualbox-extension-pack
+brew install --cask sublime-text
+brew install --cask sublime-merge
+brew install --cask skype-for-business
+brew install --cask skype
+brew install --cask teamviewer
+brew install --cask pdfsam-basic
+brew install --cask karabiner-elements
+brew install --cask vlc
+brew install --cask karabiner-elements
+brew install --cask zoom-in
+brew install --cask microsoft-teams
+brew install --cask dbeaver-community
+brew install --cask iterm2
+brew install --cask zotero #Literaturverwaltungstool
 
 # Install Source Code Pro Font
 brew tap homebrew/cask-fonts
-brew cask install font-source-code-pro
+brew install --cask font-source-code-pro
 
