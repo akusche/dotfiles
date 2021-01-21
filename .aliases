@@ -15,10 +15,9 @@ else # OS X `ls`
 fi
 
 # Get weather data in terminal
-weather () {
-    curl https://wttr.in/"${1}"
+weather() {
+	curl https://wttr.in/"$1"
 }
-
 
 # List all files colorized in long format, including dot files
 alias la="ls -lahF ${colorflag}"
