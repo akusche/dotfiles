@@ -8,10 +8,11 @@ brew install python
 brew install tree
 brew install pandoc
 brew install diff-pdf
-brew install htop		#zeigt wunderbar die aktuell laufenden Prozesse des Systems
-brew install dfc 		#zeigt die Festplattenbelegung
-brew install neofetch	#zeigt die Informationen zum System an.
-brew install pyenv 		#verwaltet mehre Python Versionen auf dem OS 
+brew install htop			#zeigt wunderbar die aktuell laufenden Prozesse des Systems
+brew install dfc 			#zeigt die Festplattenbelegung
+brew install neofetch		#zeigt die Informationen zum System an.
+brew install pyenv 			#verwaltet mehre Python Versionen auf dem OS 
+brew install docker-edge	#microservices docker images
 
 # Install MacOS Applications
 brew install --cask spotify
@@ -34,6 +35,7 @@ brew install --cask microsoft-teams
 brew install --cask dbeaver-community
 brew install --cask iterm2
 brew install --cask zotero #Literaturverwaltungstool
+
 
 # Install Source Code Pro Font
 brew tap homebrew/cask-fonts
