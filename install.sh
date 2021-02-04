@@ -4,6 +4,7 @@
 # And also installs Homebrew Packages
 # And sets Sublime preferences
 ############################
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 if [ "$#" -ne 1 ]; then
     echo "Usage: install.sh <home_directory>"
