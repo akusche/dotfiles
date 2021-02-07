@@ -35,7 +35,7 @@ brew install --cask microsoft-teams
 brew install --cask dbeaver-community
 brew install --cask iterm2
 brew install --cask zotero #Literaturverwaltungstool
-
+brew install --cask portfolioperformance
 
 # Install Source Code Pro Font
 brew tap homebrew/cask-fonts
