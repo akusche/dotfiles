@@ -36,6 +36,7 @@ brew install --cask dbeaver-community
 brew install --cask iterm2
 brew install --cask zotero #Literaturverwaltungstool
 brew install --cask portfolioperformance
+brew install --cask libreoffice
 
 # Install Source Code Pro Font
 brew tap homebrew/cask-fonts
