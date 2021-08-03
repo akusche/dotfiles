@@ -15,7 +15,6 @@ brew install pyenv 			#verwaltet mehre Python Versionen auf dem OS
 brew install docker-edge	#microservices docker images
 
 # Install MacOS Applications
-brew install --cask spotify
 brew install --cask google-chrome
 brew install --cask boxcryptor
 brew install --cask firefox
