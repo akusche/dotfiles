@@ -36,6 +36,7 @@ brew install --cask iterm2
 brew install --cask zotero #Literaturverwaltungstool
 brew install --cask portfolioperformance
 brew install --cask libreoffice
+brew install --cask angry-ip-scanner
 
 # Install Source Code Pro Font
 brew tap homebrew/cask-fonts
