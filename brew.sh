@@ -14,7 +14,6 @@ brew install pyenv 			#verwaltet mehre Python Versionen auf dem OS
 
 # Install MacOS Applications
 brew install --cask google-chrome
-brew install --cask boxcryptor
 brew install --cask firefox
 brew install --cask sublime-text
 brew install --cask sublime-merge
