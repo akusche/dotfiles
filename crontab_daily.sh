@@ -1,6 +1,7 @@
-/usr/bin/find /Users/alex/Downloads/* -atime +10 -exec rm -rf {} \; >> ~/blub.ch 2>&1
-/usr/local/bin/brew update >> ~/blub.ch 2>&1
-/usr/local/bin/brew upgrade >> ~/blub.ch 2>&1
-/usr/local/bin/brew cask upgrade >> ~/blub.ch 2>&1
-/usr/local/bin/brew cleanup >> ~/blub.ch 2>&1
-touch ~/blub.ch
+#!/bin/sh
+/usr/bin/find /Users/alex/Downloads/* -atime +10d -exec rm -rf {} \; >> ~/crontab_daily.log 2>&1
+/opt/homebrew/bin/brew update >> ~/crontab_daily.log 2>&1
+/opt/homebrew/bin/brew upgrade >> ~/crontab_daily.log 2>&1
+/opt/homebrew/bin/brew upgrade --cask >> ~/crontab_daily.log 2>&1
+/opt/homebrew/bin/brew cleanup >> ~/crontab_daily.log 2>&1
+touch ~/crontab_daily.log
