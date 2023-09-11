@@ -9,7 +9,7 @@ brew install pandoc
 brew install diff-pdf
 brew install htop			#zeigt wunderbar die aktuell laufenden Prozesse des Systems
 brew install dfc 			#zeigt die Festplattenbelegung
-brew install neofetch			#zeigt die Informationen zum System an.
+brew install neofetch		#zeigt die Informationen zum System an.
 brew install pyenv 			#verwaltet mehre Python Versionen auf dem OS 
 
 # Install MacOS Applications
