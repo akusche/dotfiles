@@ -13,21 +13,22 @@ brew install neofetch		#zeigt die Informationen zum System an.
 brew install pyenv 			#verwaltet mehre Python Versionen auf dem OS 
 
 # Install MacOS Applications
-brew install --cask google-chrome
-brew install --cask firefox
-brew install --cask sublime-text
-brew install --cask sublime-merge
-brew install --cask teamviewer
-brew install --cask pdfsam-basic
-brew install --cask karabiner-elements
-brew install --cask vlc
-brew install --cask zoom-in
-brew install --cask microsoft-teams
-brew install --cask iterm2
-brew install --cask zotero 		#Literaturverwaltungstool
-brew install --cask portfolioperformance
-brew install --cask libreoffice
-brew install --cask angry-ip-scanner
+brew install --cask google-chrome			#Web browser
+brew install --cask firefox					#Web browser
+brew install --cask sublime-text			#Text editor for code, markup and prose
+brew install --cask sublime-merge			#Git client
+brew install --cask teamviewer				#Remote access and connectivity software focused on security
+brew install --cask pdfsam-basic			#Extracts pages, splits, merges, mixes and rotates PDF files
+brew install --cask karabiner-elements		#Keyboard customizer
+brew install --cask vlc						#Multimedia player
+brew install --cask zoom					#Video communication and virtual meeting platform
+brew install --cask microsoft-teams			#Meet, chat, call, and collaborate in just one place
+brew install --cask iterm2					#Terminal emulator as alternative to Apple's Terminal app
+brew install --cask zotero 					#Literaturverwaltungstool
+brew install --cask portfolioperformance	#Calculate the overall performance of an investment portfolio
+brew install --cask libreoffice				#Free cross-platform office suite, fresh version
+brew install --cask angry-ip-scanner		#Network scanner
+brew install --cask dbeaver-community 		#Universal database tool and SQL client
 
 # Install Source Code Pro Font
 brew tap homebrew/cask-fonts

@@ -1,7 +1,8 @@
 # Zeigt zum Starten eine Systemübersicht
 clear && echo && neofetch && echo && dfc && echo
 
-#Git auto-complete
-autoload -Uz compinit && compinit
+# Setting environemnt variable
+p=$HOME"/Documents/projects/"
+export p
 
 source ~/.aliases
