@@ -11,6 +11,8 @@ brew install htop			#zeigt wunderbar die aktuell laufenden Prozesse des Systems
 brew install dfc 			#zeigt die Festplattenbelegung
 brew install neofetch		#zeigt die Informationen zum System an.
 brew install pyenv 			#verwaltet mehre Python Versionen auf dem OS 
+brew install watch			#Executes a program periodically, showing output fullscreen
+brew install ttygif			#Convert terminal recordings to animated gifs
 
 # Install MacOS Applications
 brew install --cask google-chrome			#Web browser
